@@ -19,7 +19,7 @@ With npm or yarn installed in your machine.
   yarn add
   ```
   
-## Usage (Front-end with Expo):
+## Usage (with Expo):
 
    ```sh
    npm start
