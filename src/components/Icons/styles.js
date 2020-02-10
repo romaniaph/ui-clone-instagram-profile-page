@@ -12,7 +12,7 @@ export const IconItem = styled.View`
     align-items: center;
     justify-content: center;
     border-bottom-width: 0.2px;
-    border-bottom-color: grey;
+    border-bottom-color: lightgrey;
 `;
 
 export const Icon = styled.Image`

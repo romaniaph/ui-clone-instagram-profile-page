@@ -10,7 +10,7 @@ import igtv from '../../assets/igtv.png'
 export default function Icons() {
     return (
         <Container>
-            <IconItem style={{ borderBottomColor: "grey", borderBottomWidth: 2 }}>
+            <IconItem style={{ borderBottomColor: "black", borderBottomWidth: 1 }}>
                 <Icon source={grid} />
             </IconItem>
             <IconItem>

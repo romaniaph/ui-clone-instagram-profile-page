@@ -1,16 +1,18 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.ScrollView`
-  
+    border-top-color: lightgrey;
+    border-top-width: 0.2px;
 `;
 
 export const Head = styled.View`
     margin: 1%;
     margin-left: 5%;
+    margin-bottom: 0;
     width: 100%;
     height: 100px;
     flex-direction: row;
-    align-items: center;
+    align-items: center;  
 `;
 
 export const Avatar = styled.Image`
@@ -34,7 +36,7 @@ export const TextType = styled.Text`
 
 export const Posts = styled.View`
     margin-top: 21px;
-    border-top-color: grey;
+    border-top-color: lightgrey;
     border-top-width: 0.2px;
     width: 100%;
 `;

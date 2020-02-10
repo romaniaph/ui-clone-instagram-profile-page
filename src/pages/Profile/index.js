@@ -1,5 +1,9 @@
 import React from 'react';
-import { Text, Image, FlatList } from 'react-native';
+import { Text, FlatList, YellowBox } from 'react-native';
+
+YellowBox.ignoreWarnings([
+	'VirtualizedLists should never be nested',
+]);
 
 import HeadInfo from '../../components/HeadInfo'
 import Icons from '../../components/Icons'
@@ -26,7 +30,8 @@ export default function Profile() {
             <Posts>
                 <Icons />
                 <FlatList 
-                scrollEnabled="false"
+                scrollEnabled={false}
+                nestedScrollEnabled={false}
                 key="list"
                 data={json.feed}
                 numColumns="3"
