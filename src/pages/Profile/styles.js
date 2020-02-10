@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 
 export const Container = styled.ScrollView`
     border-top-color: lightgrey;
-    border-top-width: 0.2px;
+    border-top-width: 1px;
 `;
 
 export const Head = styled.View`
@@ -37,7 +37,7 @@ export const TextType = styled.Text`
 export const Posts = styled.View`
     margin-top: 21px;
     border-top-color: lightgrey;
-    border-top-width: 0.2px;
+    border-top-width: 1px;
     width: 100%;
 `;
 

@@ -11,7 +11,7 @@ export const IconItem = styled.View`
     width: 33.3%;
     align-items: center;
     justify-content: center;
-    border-bottom-width: 0.2px;
+    border-bottom-width: 1px;
     border-bottom-color: lightgrey;
 `;
 
